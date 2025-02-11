@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form </title>
+</head>
+<body>
+    <table border="1">
+        <form>
+            <tr>
+        
+                <th colspan="2">
+                    <center><h2>Student Form</h2></center>
+                </th>
+            </tr>
+        
+        <tbody>
+        <tr>
+          <th><label for="name">First Name:</label></th>
+          <td><input type="text" id="name" name="first_name" placeholder="Enter first name..."required/></td>
+        </tr>
+        <tr>
+            <th><label for="mname">Middle Name:</label></th>
+          <td><input type="text" id="mname" name="middle_name" placeholder="Enter middle name..." required/></td>
+        </tr>
+        <tr>
+            <th><label for="lname">Last Name:</label></th>
+          <td><input type="text" id="lname" name="last_name" placeholder="Enter last name..."required/></td>
+        </tr>
+        <tr>
+            <th><label for="rollno">Roll No:</label></th>
+            <td><input type="number" id="rollno" name="Roll_no" placeholder="Enter roll no..." required/></td>
+        </tr>
+        <tr>
+            <th><label for="fathername">Father's Name:</label></th>
+            <td><input type="text" id="fathername" name="Father's_name" placeholder="Enter father's name..." required/></td>
+        </tr>
+        <tr>
+            <th><label for="stream">Course:</label></th>
+            <td>
+            <select id="stream" name="course">
+               <option>B.tech</option>
+               <option>Diploma</option>
+               <option>Pharmacy</option>
+               <option>BBA</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <th><label for="">Gender:</label></th> 
+            <td>
+            <input type="radio" name="gender_category" id="gender"/>
+            <label for="gender" >Male</label>
+            <input type="radio" name="gender_category" id="female"/>
+            <label for="female" >Female</label></br>
+            <input type="radio" name="gender_category" id="other"/>
+            <label for="other" >Others</label>
+        </td>
+        </tr>
+        <tr>
+            <th><label for="number">Phone no:</th>
+            <td> 
+                <input type="text" id="number" name="phone" size="20" placeholder="Enter contact no..." required/>
+            </td>
+        </tr>
+        <tr>
+            <th><label >Email:</th>
+            <td>
+            <input type="text" id="email" name="emali_address" placeholder="Enter email address" required/>
+            </td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td><input type="password" id="password" name="password" placeholder="Enter password" required/></td>
+        </tr> 
+        <tr>   
+            <th>Confirm Password:</th>
+            <td><input type="password1" id="password1" name="confirm_password" placeholder="Enter confirm password" required/></td>
+        </tr>  
+        <tr>
+            <th><label for="address">Address:</label></th>
+            <td><textarea name="full_address" id="address" rows="5" placeholder="Enter current address" ></textarea></td>
+        </tr>  
+        <tr>
+           <th><button>Reset</button></th>
+           <th><button>Submit</button></th>
+        </tr>
+    </tbody>
+    </form>
+    </table>
+</body>
+</html>
